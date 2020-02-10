@@ -2,7 +2,6 @@
 
 ## Part 1-4: Create a new project
 
-### Install Firebase Package
 ```
 npm install -save firebase angularfire2
 ```
@@ -108,6 +107,7 @@ package.json
 "scripts": {
     "deploy:firebase": "ng build --prod && firebase deploy"
 }
+```
 ```
 npm run deploy:firebase
 ```
